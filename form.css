@@ -1,0 +1,30 @@
+input[type=text] {
+      /* background-color:red; */
+      color:red;
+  }
+
+button {
+  width: 100px;
+  height: 20px;
+  font-size: 14px;
+  background-color: green;
+}
+
+button:hover {
+  background-color: yellow;
+}
+
+button::before {
+  content: "Check it!"
+}
+
+p {
+font-style: italic;
+}
+
+/* ::selection */
+p::-moz-selection
+ {
+		color: red;
+		background-color: yellow;
+}
