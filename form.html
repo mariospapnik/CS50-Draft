@@ -2,20 +2,45 @@
 <html>
     <head>
         <title> Marios Papanikolaou </title>
+          <link rel="stylesheet" href="form.css">
 
     </head>
     <body>
+        <p> Text is appearing here to select it! </p>
 
-      <div id="top"> <h1>This is the top Part</h1>
-          <form>
-              <div>
-                  <input name="name" type="text" placeholder="Name">
-                  <input name="password" type="password" placeholder="Password">
-              </div>
-          </form>
-    
-      Hello World!
-      Here's a new feature
-    </div>
+        <div> <h1>User Input</h1>
+            <form>
+                <div>
+                    <input name="name" type="text" placeholder="Name">
+                    <input name="password" type="password" placeholder="Password">
+                    <input name="name" type="number" placeholder="Age">
+                </div>
+            </form>
+        </div>
+
+        <div> <h2> Select from <h2>
+            <form>
+                <div>
+                  <input name="color" type="radio" value="red"> Red
+                  <input name="color" type="radio" value="blue"> Blue
+                  <input name="color" type="radio" value="green"> Green
+                  <input name="color" type="radio" value="other"> Other
+                </div>
+                <div>
+                   <button type="button">Click Me!</button>
+                </div>
+            </form>
+        </div>
+
+        <div> <h2> Select Your Country </h2>
+            <input name="country" list="countries" placeholder="Country">
+            <datalist id="countries">
+                <option value="Greece">
+                <option value="Spain">
+                <option value="France">
+                <option value="First &amp; Second">
+            </datalist>
+
+        </div>
     </body>
 </html>
